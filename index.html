@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Setting Box -->
+    <div class="setting-box">
+      <div class="gear">
+        <i class="fa-solid fa-gear"></i>
+      </div>
+      <div class="setting-container">
+        <div class="box-color">
+          <h4>Color</h4>
+          <ul>
+            <li class="active" data-color="#00adb5"></li>
+            <li data-color="#016b61"></li>
+            <li data-color="#70b2b2"></li>
+            <li data-color="#9ecfd4"></li>
+            <li data-color="#305669"></li>
+          </ul>
+        </div>
+        <div class="box-color">
+          <h4>Random Background</h4>
+          <div class="chooses">
+            <button class="yes active">Yes</button>
+            <button class="no">No</button>
+          </div>
+        </div>
+        <div class="box-bullet">
+          <h4>Show Bullets</h4>
+          <div class="chooses">
+            <button class="yes active" data-display="block">Yes</button>
+            <button class="no" data-display="none">No</button>
+          </div>
+        </div>
+        <div class="box-header">
+          <h4>Floating Header</h4>
+          <div class="chooses">
+            <button class="yes" data-display="block">Yes</button>
+            <button class="no active" data-display="none">No</button>
+          </div>
+        </div>
+        <button class="reset">Reset</button>
+      </div>
+    </div>
+    <!-- Setting Box -->
+    <!-- Navigation Bullets-->
+    <div class="nav">
+      <div class="bullet" data-name=".about-us">
+        <div class="title">About Us</div>
+      </div>
+      <div class="bullet" data-name=".skills">
+        <div class="title">Our Skills</div>
+      </div>
+      <div class="bullet" data-name=".gallery">
+        <div class="title">Gallery</div>
+      </div>
+      <div class="bullet" data-name=".time-line">
+        <div class="title">Time Line</div>
+      </div>
+      <div class="bullet" data-name=".feature">
+        <div class="title">Feature</div>
+      </div>
+      <div class="bullet" data-name=".testimonials">
+        <div class="title">Testimonials</div>
+      </div>
+      <div class="bullet" data-name=".contact">
+        <div class="title">Contact US</div>
+      </div>
+    </div>
+    <!-- Navigation Bullets-->
+    <!-- Landing Page -->
+    <div class="landing-page">
+      <div class="bg-slider"></div>
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="header-area">
+          <div class="logo"><span>El-Rawy</span> Design</div>
+          <ul class="links">
+            <li>
+              <a href="#" class="active" data-name=".about-us">About Us</a>
+            </li>
+            <li><a href="#" data-name=".skills">Our Skills</a></li>
+            <li><a href="#" data-name=".time-line">Time Line</a></li>
+            <li><a href="#" data-name=".feature">Feature</a></li>
+            <li><a href="#" data-name=".testimonials">Testimonials</a></li>
+          </ul>
+          <div class="toggle-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="introduction-text">
+          <h1>We are <span>Creative</span> Agency</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+            blanditiis cupiditate architecto
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Landing Page -->
+    <!-- About Us -->
+    <div class="about-us">
+      <div class="container">
+        <h2 class="about-head">About Us</h2>
+        <div class="about-us-info">
+          <div class="info-us">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              quas quis cum voluptates dolor quam non eum culpa ex.
+            </p>
+          </div>
+          <div class="img-us">
+            <img src="./img/about-00adb5.png" alt="about-us" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About Us -->
+    <!-- Our Skills -->
+    <div class="skills">
+      <div class="container">
+        <h2 class="skill-head">Our Skills</h2>
+        <div class="skill-box">
+          <div class="skill-info">Html</div>
+          <div class="skill-program">
+            <span data-progress="88%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-info">Css</div>
+          <div class="skill-program">
+            <span data-progress="95%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-info">JaveScript</div>
+          <div class="skill-program">
+            <span data-progress="75%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-info">React</div>
+          <div class="skill-program">
+            <span data-progress="60%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-info">jQuery</div>
+          <div class="skill-program">
+            <span data-progress="66%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-info">SQL</div>
+          <div class="skill-program">
+            <span data-progress="60%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Our Skills -->
+    <!-- Our Gallery -->
+    <div class="gallery">
+      <div class="container">
+        <div class="gallery-box">
+          <h2>Gallery</h2>
+          <div class="img-box">
+            <div class="box"><img src="./img/1.jpg" alt="" /></div>
+            <div class="box"><img src="./img/2.jpg" alt="" /></div>
+            <div class="box"><img src="./img/3.jpg" alt="" /></div>
+            <div class="box"><img src="./img/4.jpg" alt="" /></div>
+            <div class="box"><img src="./img/5.jpg" alt="" /></div>
+            <div class="box"><img src="./img/6.jpg" alt="" /></div>
+            <div class="box"><img src="./img/7.jpg" alt="" /></div>
+            <div class="box"><img src="./img/8.jpg" alt="" /></div>
+            <div class="box"><img src="./img/9.jpg" alt="" /></div>
+            <div class="box"><img src="./img/10.jpg" alt="" /></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Our Gallery -->
+    <!-- start Time Line -->
+    <div class="time-line">
+      <div class="container">
+        <h2>Time Line</h2>
+        <div class="time-content">
+          <div class="year">2025</div>
+          <div class="left">
+            <div class="content">
+              <h3>Test Heading</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem
+                ducimus quo voluptates reprehenderit quisquam eveniet
+                voluptatibus dolore a eaque deleniti tempore tempora, nihil
+                molestiae exercitationem. Inventore velit quos totam aliquid.
+              </p>
+            </div>
+          </div>
+          <div class="right">
+            <div class="content">
+              <h3>Test Heading</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem
+                ducimus quo voluptates reprehenderit quisquam eveniet
+                voluptatibus dolore a eaque deleniti tempore tempora, nihil
+                molestiae exercitationem. Inventore velit quos totam aliquid.
+              </p>
+            </div>
+          </div>
+          <div class="year">2023</div>
+          <div class="left">
+            <div class="content">
+              <h3>Test Heading</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem
+                ducimus quo voluptates reprehenderit quisquam eveniet
+                voluptatibus dolore a eaque deleniti tempore tempora, nihil
+                molestiae exercitationem. Inventore velit quos totam aliquid.
+              </p>
+            </div>
+          </div>
+          <div class="right">
+            <div class="content">
+              <h3>Test Heading</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem
+                ducimus quo voluptates reprehenderit quisquam eveniet
+                voluptatibus dolore a eaque deleniti tempore tempora, nihil
+                molestiae exercitationem. Inventore velit quos totam aliquid.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Start Time Line -->
+    <!-- Our Feature -->
+    <div class="feature">
+      <div class="container">
+        <h2>Feature</h2>
+        <div class="feat">
+          <div class="feat-box">
+            <div class="feat-img">
+              <img src="./img/feature (1).png" alt="" />
+            </div>
+            <h4>Fast Performance</h4>
+            <p>
+              Experience lightning-quick loading and smooth interactions every
+              time.
+            </p>
+          </div>
+          <div class="feat-box">
+            <div class="feat-img">
+              <img src="./img/feature (2).png" alt="" />
+            </div>
+            <h4>Modern & Elegant Design</h4>
+            <p>
+              A clean, stylish interface built for an enjoyable user experience.
+            </p>
+          </div>
+          <div class="feat-box">
+            <div class="feat-img">
+              <img src="./img/feature (3).png" alt="" />
+            </div>
+            <h4>Trusted Security</h4>
+            <p>
+              Your data is protected with advanced encryption and privacy
+              measures.
+            </p>
+          </div>
+          <div class="feat-box">
+            <div class="feat-img">
+              <img src="./img/feature (4).png" alt="" />
+            </div>
+            <h4>24/7 Support</h4>
+            <p>
+              Our dedicated team is always here to help you whenever you need
+              it.
+            </p>
+          </div>
+          <div class="feat-box">
+            <div class="feat-img">
+              <img src="./img/feature (5).png" alt="" />
+            </div>
+            <h4>Personalized Experience</h4>
+            <p>
+              Get features tailored specifically to your needs and preferences.
+            </p>
+          </div>
+          <div class="feat-box">
+            <div class="feat-img">
+              <img src="./img/feature (6).png" alt="" />
+            </div>
+            <h4>Regular Updates</h4>
+            <p>
+              We’re constantly improving to bring you the best and newest
+              features.
+            </p>
+          </div>
+          <div class="clearFix"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Our Feature -->
+    <!-- Start Testimonials -->
+    <div class="testimonials">
+      <div class="container">
+        <h2>Testimonials</h2>
+        <div class="te-grid">
+          <div class="test-box">
+            <div class="box">
+              <p>
+                The product quality is amazing and the delivery was faster than
+                I expected. Excellent service and highly recommended!
+              </p>
+              <div class="person-info">
+                <img src="https://placehold.co/40/000000/FFFFFF/png" alt="" />
+                <h4>Michael Johnson</h4>
+                <p>Business Owner</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="test-box">
+            <div class="box">
+              <p>
+                Great experience! Customer support was very responsive and
+                helpful. I will definitely order again.
+              </p>
+              <div class="person-info">
+                <img src="https://placehold.co/40/000000/FFFFFF/png" alt="" />
+                <h4>Sarah Williams</h4>
+                <p>Marketing Specialist</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="test-box">
+            <div class="box">
+              <p>
+                The delivery was on time and the packaging was excellent. A very
+                professional service overall.
+              </p>
+              <div class="person-info">
+                <img src="https://placehold.co/40/000000/FFFFFF/png" alt="" />
+                <h4>David Brown</h4>
+                <p>Fitness Coach</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="test-box">
+            <div class="box">
+              <p>
+                I was unsure at first, but the results exceeded my expectations.
+                Amazing product and reliable shipping.
+              </p>
+              <div class="person-info">
+                <img src="https://placehold.co/40/000000/DDD/png" alt="" />
+                <h4>Emily Clark</h4>
+                <p>Software Engineer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Testimonials -->
+    <!-- Start Contact Us -->
+    <div class="contact">
+      <div class="overlay"></div>
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form action="">
+          <div class="left">
+            <input type="text" placeholder="Your Name" name="userName" />
+            <input type="phone" placeholder="Your Phone" name="phone" />
+            <input type="email" placeholder="Your Email" name="email" />
+            <input type="subject" placeholder="Subject" name="subject" />
+          </div>
+          <div class="right">
+            <textarea
+              name="Your Massage"
+              placeholder="Your Massage"
+              id=""
+            ></textarea>
+            <input type="submit" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- End Contact Us -->
+    <footer>Created By Ahmed EL-Rawy</footer>
+    <script
+      src="https://kit.fontawesome.com/b4fa388a07.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./jave/style.js"></script>
+  </body>
+</html>
